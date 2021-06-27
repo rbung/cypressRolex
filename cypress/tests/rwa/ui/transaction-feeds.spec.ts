@@ -6,10 +6,10 @@ import {
   TransactionResponseItem,
   Contact,
   TransactionStatus,
-} from "../../../src/models";
+} from "../../../../src/models";
 import { addDays, isWithinInterval, startOfDay } from "date-fns";
-import { startOfDayUTC, endOfDayUTC } from "../../../src/utils/transactionUtils";
-import { isMobile } from "../../support/utils";
+import { startOfDayUTC, endOfDayUTC } from "../../../../src/utils/transactionUtils";
+import { isMobile } from "../../../support/utils";
 
 const { _ } = Cypress;
 
@@ -253,8 +253,8 @@ describe("Transaction Feed", function () {
                     start: startOfDayUTC(dateRangeStart),
                     end: dateRangeEnd,
                   }),
-                  `transaction created date (${createdAtDate.toISOString()}) 
-                  is within ${dateRangeStart.toISOString()} 
+                  `transaction created date (${createdAtDate.toISOString()})
+                  is within ${dateRangeStart.toISOString()}
                   and ${dateRangeEnd.toISOString()}`
                 ).to.equal(true);
               });

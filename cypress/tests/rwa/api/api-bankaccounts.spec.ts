@@ -2,7 +2,7 @@
 // @ts-check
 
 import faker from "faker";
-import { User, BankAccount } from "../../../src/models";
+import { User, BankAccount } from "../../../../src/models";
 
 const apiBankAccounts = `${Cypress.env("apiUrl")}/bankAccounts`;
 const apiGraphQL = `${Cypress.env("apiUrl")}/graphql`;

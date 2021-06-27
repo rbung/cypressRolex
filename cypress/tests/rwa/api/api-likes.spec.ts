@@ -1,7 +1,7 @@
 // check this file using TypeScript if available
 // @ts-check
 
-import { User, Like } from "../../../src/models";
+import { User, Like } from "../../../../src/models";
 
 const apiLikes = `${Cypress.env("apiUrl")}/likes`;
 

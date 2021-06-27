@@ -1,4 +1,4 @@
-import { User, NotificationType, Like, Comment, Transaction } from "../../../src/models";
+import { User, NotificationType, Like, Comment, Transaction } from "../../../../src/models";
 
 const apiNotifications = `${Cypress.env("apiUrl")}/notifications`;
 

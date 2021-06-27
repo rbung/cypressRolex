@@ -1,6 +1,6 @@
 import faker from "faker";
 import { isEqual } from "lodash/fp";
-import { User, NotificationType, Transaction, BankAccount } from "../../../src/models";
+import { User, NotificationType, Transaction, BankAccount } from "../../../../src/models";
 
 type TestTransactionsCtx = {
   receiver?: User;

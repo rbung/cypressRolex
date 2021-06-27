@@ -1,4 +1,4 @@
-import { User } from "../../../src/models";
+import { User } from "../../../../src/models";
 
 const apiBankTransfer = `${Cypress.env("apiUrl")}/bankTransfers`;
 

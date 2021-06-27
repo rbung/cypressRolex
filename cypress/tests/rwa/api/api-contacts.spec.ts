@@ -1,4 +1,4 @@
-import { User, Contact } from "../../../src/models";
+import { User, Contact } from "../../../../src/models";
 
 const apiContacts = `${Cypress.env("apiUrl")}/contacts`;
 

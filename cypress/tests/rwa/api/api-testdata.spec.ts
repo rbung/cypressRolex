@@ -1,7 +1,7 @@
 // check this file using TypeScript if available
 // @ts-check
 
-import { User } from "../../../src/models";
+import { User } from "../../../../src/models";
 
 const apiTestData = `${Cypress.env("apiUrl")}/testData`;
 

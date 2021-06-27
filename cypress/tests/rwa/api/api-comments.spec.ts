@@ -1,7 +1,7 @@
 // check this file using TypeScript if available
 // @ts-check
 
-import { User, Comment } from "../../../src/models";
+import { User, Comment } from "../../../../src/models";
 
 const apiComments = `${Cypress.env("apiUrl")}/comments`;
 
