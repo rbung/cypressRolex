@@ -1,0 +1,28 @@
+{
+  "transaction": {
+    "receiverName": "John Doe",
+    "senderName": "Rodolphe",
+    "receiverAvatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/qywYp6hS0U.svg",
+    "senderAvatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/bDjUb4ir5O.svg",
+    "likes": [1, 2, 3, 4, 5],
+    "comments": [
+      {
+        "content": "Woow thank you !!"
+      }
+    ],
+    "id": "MyTransaction1234",
+    "uuid": "26360e56-0e4d-415c-9e62-8846b5bb0260",
+    "source": "lWfxENA5ZNy",
+    "amount": 4200,
+    "description": "My awesome payment",
+    "privacyLevel": "contacts",
+    "receiverId": "qywYp6hS0U",
+    "senderId": "bDjUb4ir5O",
+    "balanceAtCompletion": 5456,
+    "status": "pending",
+    "requestStatus": "",
+    "requestResolvedAt": "2020-06-11T05:39:01.608Z",
+    "createdAt": "2020-04-14T10:33:22.262Z",
+    "modifiedAt": "2020-05-21T23:55:16.804Z"
+  }
+}

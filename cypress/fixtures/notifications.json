@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "userFullName": "Ibrahim Dickens",
+      "id": "9m-W-uI5fQUF",
+      "uuid": "f4a10fbf-d12e-4a6d-b888-d86989b66687",
+      "userId": "t45AiwidW",
+      "likeId": "heOJ8kL74llw",
+      "transactionId": "PPrW38YZtQD",
+      "isRead": false,
+      "createdAt": "2019-10-15T13:21:49.772Z",
+      "modifiedAt": "2020-05-21T20:08:05.787Z"
+    },
+    {
+      "userFullName": "Kaylin Homenick",
+      "id": "tk8jNBQURvQz",
+      "uuid": "c4ece032-38e3-47e9-8284-fbfa6d96ef9a",
+      "userId": "t45AiwidW",
+      "transactionId": "xAsSYDsiEGSj",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2019-11-12T12:51:00.239Z",
+      "modifiedAt": "2020-05-21T18:26:16.366Z"
+    }
+  ]
+}
