@@ -256,7 +256,7 @@ jobs:
           wait-on-timeout: 120
           record: true
           parallel: true
-          group: "UI - Electron - Windows"
+          group: "UI - Electron - WindowsBis"
           spec: cypress/tests/rolex/*
         env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
